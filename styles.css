@@ -112,3 +112,11 @@ p.text {
 p.text span {
   color: #6feaf6;
 }
+
+#clear-seats {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 10px 14px;
+  margin: 12px 0;
+  border-radius: 25px;
+}
