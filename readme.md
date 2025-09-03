@@ -16,13 +16,13 @@ Live Demo: https://tonmoy-nita.github.io/Movie-seat-booking/
 ## 📸 Preview
 
 <p align="center">
-  <img src="./assets/screenshot.png" alt="Movie Seat Booking screenshot" width="800">
+  <img src="./assets/screenshot.png" alt="Movie Seat Booking screenshot" width="400">
 </p>
 
 Optionally add a GIF for interactions:
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="Seat selection demo" width="800">
+  <img src="./assets/demo.gif" alt="Seat selection demo" width="400">
 </p>
 
 ---
