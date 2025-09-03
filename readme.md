@@ -16,13 +16,8 @@ Live Demo: https://tonmoy-nita.github.io/Movie-seat-booking/
 ## 📸 Preview
 
 <p align="center">
-  <img src="./assets/screenshot.png" alt="Movie Seat Booking screenshot" width="400">
-</p>
-
-Optionally add a GIF for interactions:
-
-<p align="center">
-  <img src="./assets/demo.gif" alt="Seat selection demo" width="400">
+  <img src="./assets/screenshot.png" alt="Movie Seat Booking screenshot" width="400" style="max-width:48%; vertical-align:top;">
+  <img src="./assets/demo.gif" alt="Seat selection demo" width="400" style="max-width:48%; vertical-align:top;">
 </p>
 
 ---
@@ -44,3 +39,25 @@ Optionally add a GIF for interactions:
 ---
 
 ## 🗂️ Project Structure
+
+Movie-seat-booking/
+├─ index.html
+├─ style.css
+├─ script.js
+└─ assets/
+├─ screenshot.png
+└─ demo.gif
+
+## 🧭 How It Works (Quick Overview)
+
+- The container holds seat rows; each seat has classes like `seat`, `selected`, `occupied`.
+- A click handler on the container uses event delegation to toggle `.selected` on valid seats.
+- After each interaction, the script recalculates:
+  - Number of selected seats
+  - Total cost = selectedCount × current movie price
+
+---
+
+## 🛠️ Setup & Run Locally
+
+     https://github.com/Tonmoy-nita/Movie-seat-booking
